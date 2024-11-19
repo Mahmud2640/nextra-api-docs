@@ -1,15 +1,23 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Welcome",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "get-started": "Get Started",
+  "flight-api": "Flight APIS",
+  "booking-api": "Booking APIS",
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "href": "https://mynztrip.com/about-us",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://mynztrip.com/contact",
     "newWindow": true
   }
 }
